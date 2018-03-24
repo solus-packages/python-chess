@@ -1,0 +1,16 @@
+name       : python-chess
+version    : 0.22.2
+release    : 1
+source     :
+    - https://github.com/niklasf/python-chess/archive/v0.22.2.tar.gz : 247c8c53ff1b790af5309eff189e507e14bb2ac689f678375d1d3633e4111168
+license    : GPL-3.0
+component  : programming.python
+summary    : A pure Python chess library with move generation and validation, PGN parsing and writing, Polyglot opening book reading, Gaviota tablebase probing, Syzygy tablebase probing and UCI engine communication
+description: |
+    A pure Python chess library with move generation and validation, PGN parsing and writing, Polyglot opening book reading, Gaviota tablebase probing, Syzygy tablebase probing and UCI engine communication
+builddeps  :
+    - python-setuptools
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
