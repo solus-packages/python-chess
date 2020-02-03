@@ -2,15 +2,15 @@
     <Source>
         <Name>python-chess</Name>
         <Packager>
-            <Name>Stig Svensson</Name>
-            <Email>stigarn@protonmail.ch</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">A pure Python chess library with move generation and validation, PGN parsing and writing, Polyglot opening book reading, Gaviota tablebase probing, Syzygy tablebase probing and UCI engine communication</Summary>
         <Description xml:lang="en">A pure Python chess library with move generation and validation, PGN parsing and writing, Polyglot opening book reading, Gaviota tablebase probing, Syzygy tablebase probing and UCI engine communication
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-chess</Name>
@@ -19,40 +19,40 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/engine.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/gaviota.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/pgn.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/polyglot.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/svg.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/syzygy.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/uci.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/variant.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/__pycache__/xboard.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/engine.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/gaviota.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/pgn.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/polyglot.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/svg.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/syzygy.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/uci.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/variant.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/chess/xboard.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/python_chess-0.22.2-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/python_chess-0.22.2-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/python_chess-0.22.2-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/python_chess-0.22.2-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/python_chess-0.22.2-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/engine.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/gaviota.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/pgn.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/polyglot.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/svg.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/syzygy.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/uci.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/variant.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/__pycache__/xboard.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/engine.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/gaviota.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/pgn.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/polyglot.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/svg.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/syzygy.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/uci.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/variant.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/chess/xboard.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_chess-0.22.2-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_chess-0.22.2-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_chess-0.22.2-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_chess-0.22.2-py3.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_chess-0.22.2-py3.7.egg-info/top_level.txt</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-03-18</Date>
+        <Update release="2">
+            <Date>2020-01-25</Date>
             <Version>0.22.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Stig Svensson</Name>
-            <Email>stigarn@protonmail.ch</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
